@@ -1,0 +1,227 @@
+/*  -- BEGIN TABELA ------------------------------------------------- */
+#tabela {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabela table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#tabela th,
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+#tabela th {
+    background-color: rgba(0, 92, 159, 1);
+    color: white;
+}
+
+#tabela i {
+    font-size: 25px;
+    margin-right: 7px;
+    color: rgba(0, 92, 159, 1);
+}
+
+#tabela i:hover {
+    color: rgba(38, 178, 253, 1);
+    cursor: pointer;
+}
+
+/* TABELA VERTICAL */
+.tabela-vertical table {
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+}
+
+#th-vertical {
+    text-align: left;
+    padding: 8px;
+    border: solid;
+}
+
+#td-vertical {
+    text-align: left;
+    padding: 8px;
+    width: 1070px;
+    border: none;
+}
+
+#semborda{
+    background-color: transparent;
+    padding: auto;
+    margin-bottom: 10px;
+    border: none;
+}
+
+
+
+.tabela-vertical tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.tabela-vertical th {
+    background-color: rgba(0, 92, 159, 1);
+    color: white;
+}
+
+/* ----------------------------------------------------- */
+/* END TABELA -------------------------------------------*/
+
+
+/* --BTN BEGIN -----------------------------------------*/
+#btn {
+    background-color: rgba(111, 111, 111, 0.9);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 84%;
+}
+
+#btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(00, 00, 255, 0.5);
+    cursor: pointer;
+}
+
+/* --END BTN  ----------------------------------------*/
+
+
+/* ---  BEGIN HOME ---------------------------------------- */
+.login img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+}
+
+.login a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin: 20px; */
+    display: inline-table;
+    color: rgba(0, 92, 159, 1);
+}
+
+
+#login_admin {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#login_user {
+    margin-top: 3%;
+    margin-left: 75%;
+}
+
+.login a:hover {
+    text-shadow: 2px 10px 10px rgba(0, 0, 0, 0.4);
+    ;
+    color: rgba(38, 178, 253, 1);
+    cursor: pointer;
+}
+
+/* --- END HOME-------------------------------------------- */
+
+
+
+/* --- BEGIN CLASS STANDARD----------------------------------------- */
+.row {
+    display: inline-block;
+    width: 1200px;
+}
+
+.form-group form,
+label, select {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.form-group form {
+    width: 270px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-group select {
+    border-radius: 10px;;
+    width: 270px;
+}
+
+
+.form-group label {
+    color: rgba(0, 0, 0, 1);
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login-form .form-group label {
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    display: inline-block;
+    width: 560px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+/* .form-group button {
+    background-color: rgba(111, 111, 111, 0.9);
+    border: none;
+    border-radius: 10px;
+    padding-top: 4px;
+    margin-top: 2px;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+    width: 180px;
+    height: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(00, 00, 255, 0.5);
+    cursor: pointer;
+} */
+
+/* BEGIN FAKE SPAN H1 ------------------------------------------- */
+#FAKEH1 {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-inline-end: 47%;
+}
+
+/* END FAKE SPAN H1 ------------------------------------------- */
+.form-label {
+    color: #000000;
+    font-weight: 500;
+}
+
